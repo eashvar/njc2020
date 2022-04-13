@@ -1,0 +1,21 @@
+<html>
+<head>
+	<title> School database </title>
+</head>
+
+<body>
+<h1> <p align = "middle"> Search for staff </p> </h1>
+
+<form action =  "{{url_for('Search')}}" method = "POST">
+<table bgcolor = "white" >
+	<tr> 
+		<th><p align = "left"> Name of School</p></th>
+		<th><p align = "left"> Department</p></th>
+	</tr>
+	<tr>
+		<td><input name = "SchoolName"></td>
+		<td><input name = "Dept"></td>
+	</tr>
+</table>
+<input type = "Submit" value = "Search" >
+
